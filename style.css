@@ -4,30 +4,6 @@
     padding: 0px;
 }
 
-body {
-    background-color: #D6EFC7;
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Open Sans', sans-serif;
-}
-
-h1 {
-    position: absolute;
-    width: 695px;
-    height: 154px;
-    left: 50px;
-    top: 170px;
-
-    font-family: 'Poppins';
-    font-size: normal;
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 120%;
-
-    color: #22AE5A;
-}
-
-
 .wrapper {
     width: 1100px;
     margin: auto;
@@ -62,6 +38,7 @@ nav {
     position: sticky;
     position: -webkit-sticky;
     top: 0px;
+    z-index: 1;
 }
 
 nav ul {
@@ -90,11 +67,64 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-img {
-    position: absolute;
-    width: 732.87px;
-    height: 547.71px;
-    left: 400.43px;
-    top: 0px;
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
 }
 
+.colom {
+    margin-top: 250px;
+    margin-bottom: 250px;
+}
+
+.colom .deskripsi {
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'poppins';
+    line-height: 120%;
+    color: #22AE5A;
+}
+
+h1 {
+    position: relative;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'poppins';
+    line-height: 120%;
+    color: #184D47;
+}
+
+a.tbl-orange {
+    background: #FAD586;
+    position: absolute;
+    border-radius: 14px;
+    top: 482px;
+    color: #184D47;
+    padding: 15px 20px 15px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    position: absolute;
+    width: 382px;
+    height: 77px;
+    left: 489px;
+    top: 1514px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;
+    color: #184D47; 
+}
