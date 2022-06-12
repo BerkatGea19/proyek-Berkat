@@ -128,3 +128,7 @@ p {
     line-height: 120%;
     color: #184D47; 
 }
+
+li, a {
+    text-decoration: none;
+}
